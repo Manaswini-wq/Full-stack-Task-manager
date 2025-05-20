@@ -1,0 +1,5 @@
+-- Added index for faster status-based filtering  
+CREATE INDEX idx_task_status ON tasks(status);  
+
+-- Optimized query for task counts:  
+SELECT status, COUNT(*) FROM tasks GROUP BY status;  
