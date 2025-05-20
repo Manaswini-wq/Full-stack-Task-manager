@@ -1,0 +1,3 @@
+React Frontend → Node.js API → PostgreSQL  
+          ↑               ↓  
+        JWT           Redis (Caching)  
